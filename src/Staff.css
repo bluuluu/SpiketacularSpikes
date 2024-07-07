@@ -1,0 +1,36 @@
+.staff-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.staff-card {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.staff-photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.staff-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.staff-photo-placeholder {
+  height: 200px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  font-weight: bold;
+}
